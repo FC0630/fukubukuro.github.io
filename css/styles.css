@@ -1,29 +1,27 @@
 body {
-  background-color : rgb(206, 206, 206) ;
   font-family: Verdana, sans-serif;
-  margin: 0;
-}
-
-header ul li {
-  display: inline-block;
-}
-
-a {
-  text-decoration: none;
+  text-align: center;
 }
 
 header {
-  background-color: white;
-  display: flex;
+  margin: 0;
 }
 
-ul {
- list-style-type: none;
+header li {
+  float: left;
+  overflow: hidden;
+  width: 120px;
+}
+
+li {
+ list-style-type: none; 
+}
+
+a {
+  text-decoration: none; 
 }
 
 img {
   border-radius: 50%;
   border-width: 4px;
-  border-style: solid;
-  border-color: white;
 }
